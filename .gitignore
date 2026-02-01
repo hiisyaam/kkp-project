@@ -1,7 +1,11 @@
 # deps
 node_modules/
 generated/
+# Environment files
 .env
+.env.local
+.env.*.local
+
 .vscode
 .vercel
 .env*.local
