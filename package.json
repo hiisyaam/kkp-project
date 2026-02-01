@@ -1,7 +1,8 @@
 {
   "name": "kkp",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/index.ts",
+    "build" : "prisma generate"
   },
   "dependencies": {
     "@prisma/adapter-libsql": "^7.3.0",
